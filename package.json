@@ -1,0 +1,28 @@
+{
+  "name": "soccer-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "node main",
+    "browser": "browser-sync start --config './bs-config.js'",
+    "start": "npm-run-all --parallel start-server browser"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "npm-run-all": "^4.1.5",
+    "puppeteer": "^10.2.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-adblocker": "^2.11.11"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.5"
+  }
+}

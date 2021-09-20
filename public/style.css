@@ -1,0 +1,112 @@
+.img_outfitter {
+  height: 35px;
+}
+
+.pitch {
+  height: 500px;
+  position: relative;
+}
+
+.pitch > img {
+  height: 100%;
+  border-radius: 10px;
+}
+.pitch .jersey {
+  height: 30px;
+  width: 30px;
+  background-color: #0b5ed7;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0);
+}
+
+.jersey img {
+  height: 45px;
+}
+
+.attacking_midfield {
+  bottom: 70%;
+  left: 50%;
+}
+
+.right-back {
+  right: 10%;
+  bottom: 27%;
+}
+.left-back {
+  left: 15%;
+  bottom: 27%;
+}
+
+.centre-back {
+  bottom: 23%;
+  left: 50%;
+}
+.defensive_midfield {
+  bottom: 40%;
+  left: 50%;
+}
+.centre-forward {
+  top: 5%;
+  left: 50%;
+}
+
+.right_winger {
+  top: 15%;
+  right: 15%;
+}
+.left_winger {
+  top: 15%;
+  left: 21%;
+}
+
+.central_midfield {
+  left: 50%;
+  bottom: 50%;
+}
+.second_striker {
+  left: 50%;
+  top: 15%;
+}
+
+.defender {
+  bottom: 25%;
+}
+.goalkeeper {
+  bottom: 10%;
+  left: 50%;
+}
+
+.right_midfield {
+  bottom: 50%;
+  right: 10%;
+}
+
+.player_stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.player_stats > div:first-child {
+  flex: 1;
+}
+
+.other_position {
+  background-color: #d7c30b !important;
+  opacity: 0.65;
+}
+
+.out-arrow {
+  transform: rotate(180deg);
+}
+
+.out-arrow,
+.in-arrow {
+  margin-left: 1.5rem;
+  height: 20px;
+}
